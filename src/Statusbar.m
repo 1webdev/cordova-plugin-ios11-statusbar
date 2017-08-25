@@ -1,10 +1,10 @@
 #import <Cordova/CDV.h>
 
-@interface Statusbar : CDVPlugin
+@interface InsetStatusbar : CDVPlugin
 
 @end
 
-@implementation Statusbar
+@implementation InsetStatusbar
 
 - (void)removeStatusbarInset {
     if (@available(iOS 11.0, *)) {
