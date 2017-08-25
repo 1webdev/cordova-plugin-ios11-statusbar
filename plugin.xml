@@ -3,8 +3,8 @@
     <name>cordova-plugin-ios11-statusbar</name>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="Statusbar">
-                <param name="ios-package" value="Statusbar" />
+            <feature name="InsetStatusbar">
+                <param name="ios-package" value="InsetStatusbar" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
